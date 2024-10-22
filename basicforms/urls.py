@@ -22,4 +22,8 @@ urlpatterns = [
     path('basicforms/',basicforms,name='basicforms'),
     path('webpage/',webpage,name='webpage'),
     path('accessrecord/',accessrecord,name='accessrecord'),
+    path('insert_webpage/',insert_webpage,name='insert_webpage'),
+    path('insert_Accessrecord/',insert_Accessrecord,name='insert_Accessrecord'),
+    path('select_multiple/',select_multiple,name='select_multiple'),
+    path('select_multiple_access/',select_multiple_access,name='select_multiple_access'),
 ]
